@@ -58,4 +58,4 @@ def define_computation_graph(vocab_size: int, batch_size: int):
     tf.summary.scalar('loss', loss)
     summary = tf.summary.merge_all()
 
-return inputs, targets, loss, train_step, logits, summary
+    return inputs, targets, loss, train_step, logits, summary
